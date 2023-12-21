@@ -4,11 +4,11 @@ public class GenThree {
       int bottom = Integer.parseInt(args[0]);// range bottom
       int top = Integer.parseInt(args[1]);// range top
       double rand1 = Math.random();// generates a double random 
-      int int1 = bottom + (int)(rand1*(top-bottom+1));// makes random int and in range
+      int int1 = bottom + (int)(rand1*(top-bottom));// makes random int and in range
       double rand2 = Math.random();// generates a double random 
-      int int2 = bottom + (int)(rand2*(top-bottom+1));// makes random int and in range
+      int int2 = bottom + (int)(rand2*(top-bottom));// makes random int and in range
       double rand3 = Math.random();// generates a double random 
-      int int3 = bottom + (int)(rand3*(top-bottom+1));// makes random int and in range
+      int int3 = bottom + (int)(rand3*(top-bottom));// makes random int and in range
       System.out.println (int1);
       System.out.println (int2);
       System.out.println (int3);
