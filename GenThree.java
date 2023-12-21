@@ -13,7 +13,7 @@ public class GenThree {
       System.out.println (int2);
       System.out.println (int3);
       int minnum = Math.min(int1,(Math.min(int2,int3)));// calculating the min number between the three rands
-      System.out.println ("the minimal generated number was "+ minnum);
+      System.out.println ("The minimal generated number was " + minnum);
 
    }
 }
