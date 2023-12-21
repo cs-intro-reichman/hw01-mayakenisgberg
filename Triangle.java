@@ -9,7 +9,7 @@ public class Triangle {
          {
          isTrangle = false;
          } 
-       System.out.println (a + " , " + b + " , " + c + ": " + isTrangle);
+       System.out.println (a + ", " + b + ", " + c + ": " + isTrangle);
 
    }
 }
