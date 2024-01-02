@@ -4,6 +4,9 @@ public class Coins
     {
       int centsamount = Integer.parseInt(args [0]);
       // calculating the amount of quearters and the remaining cents, and printing the full answer
-      System.out.println("Use " + centsamount/25 + " quarters and " + centsamount%25 + " cents");  
+        // #Feedback: better to not do calculation in print commands
+        int quarters = centsamount / 25;
+        int cents = centsamount % 25;
+      System.out.println("Use " + quarters + " quarters and " + cents + " cents");  
    }
 }
