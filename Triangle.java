@@ -5,7 +5,7 @@ public class Triangle {
       int b = Integer.parseInt(args[1]);
       int c = Integer.parseInt(args[2]);
       // #feedback: you can simplify it as follows:
-      boolean isTrangle = (a+b<c) || (a+c<b) || (b+c<a);
+      boolean isTrangle = (a+b>c) || (a+c>b) || (b+c>a);
       System.out.println (a + ", " + b + ", " + c + ": " + isTrangle);
 
    }
